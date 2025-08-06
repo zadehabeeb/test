@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 
 class MessageController extends Controller
 {
+
+
+     
     // Store the message and broadcast it
     public function store(Request $request)
     {
